@@ -1,0 +1,155 @@
+/* LAYOUT, DEFAULT FONTS */
+html {
+    font-family: sans-serif, serif;
+}
+
+body {
+    background-color: #98C9A3;
+    padding: 0 .6em;
+    box-sizing: border-box;
+}
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.future-title {
+    font-size: 1.6em;
+    color: #777;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:100px;
+}
+
+.logo-photo {
+    display: flex;
+    gap: 1.8em;
+    justify-content: start;
+    background-color: #77BFA3;
+    height: 40em;
+    border-radius: 6px;
+}
+
+.code-img {
+    height: 40em;
+    width: auto;
+    border-radius: 8px;
+    opacity: .9;
+}
+
+.me-img {
+    height: 40em;
+    width: auto;
+    border-radius: 8px;
+    opacity: .6;
+}
+
+/* NAVIGATION */
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5em;
+    justify-content: space-evenly;
+  
+}
+
+nav {
+   
+    padding: 0 6.25em;
+}
+
+.nav-link {
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+h1 {
+    padding-left: 2.5em;
+    font-size: 2.2em;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+
+/* LINKS */
+a:link {
+    text-decoration: none;
+    color: #777;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover {
+    color: orangered
+}
+
+a:active {
+    color: purple;
+}
+
+.footer-link {
+    font-size: 1.2em;
+}
+
+/* BODY */
+.container {
+    background-color: azure;
+    height: 46em;
+}
+
+.logo {
+    height: 8em;
+    width: auto;
+    opacity: .9;
+    padding: .6px 5.6em;
+}
+
+.humber-bio {
+
+    background-color: #EDEEC9;
+    display: flex;
+    align-items: center;
+}
+
+.ccmh-bio {
+    background-color: #DDE7C7;
+    display: flex;
+}
+.gbc-bio {
+    background-color: #BFD8BD;
+    display: flex;
+}
+
+
+.layout {
+    padding: 1.8em;
+    align-items: center;
+}
+
+.bio {
+    padding: .6em 3.1em;
+    color: #555;
+    font-size: 1.2em;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+
+}
+
+
+/* LEGAL */
+.mini-nav {
+    font-size: .8em;
+}
